@@ -1,0 +1,13 @@
+.banner-img {
+    margin-top: 48px;
+    margin-bottom: 56px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        transition: all ease-in-out 0.5s;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.contact-items {
+    border-top: 1px solid #E2E2E2;
+    h2 {
+        color: #212121;
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 8px;
+    }
+    p {
+        color: #828282;
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 24px;
+    }
+    button {
+        margin-bottom: 40px;
+        background: #52057B;
+        border-radius: 8px;
+        color: #fff;
+        padding: 12px 16px;
+        border: none;
+        transition: all 0.2s ease-in-out;
+        i {
+            padding-left: 10px;
+        }
+        &:hover {
+            transform: scale(1.1, 1);
+        }
+    }
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #52057B;
+    // border-radius: 10px;
+}

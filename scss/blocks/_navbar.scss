@@ -1,0 +1,103 @@
+nav {
+    width: 100%;
+    padding: 16px 0;
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-logo {
+            img {
+                width: 151px;
+                cursor: pointer;
+            }
+        }
+        .nav-text {
+            p {
+                color: #212121;
+                font-weight: 400;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+        }
+        .nav-input {
+            input {
+                width: 450px;
+            }
+        }
+        .nav-btn {
+            a {
+                background: #52057B;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #fff;
+                padding: 15px 20px 15px 16px;
+            }
+        }
+        .nav-icons {
+            display: flex;
+            color: #828282;
+            font-size: 20px;
+            gap: 27px;
+            i {
+                cursor: pointer;
+            }
+        }
+        .nav-user {
+            display: flex;
+            gap: 10px;
+            cursor: pointer;
+            .nav-user--info {
+                p {
+                    margin-bottom: 0;
+                    color: #212121;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+                small {
+                    color: #129A00;
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+// RESPONSIVE
+@media (max-width: 1199.98px) {
+    nav {
+        .nav-input {
+            display: none;
+        }
+        .nav-btn {
+            a {
+                padding: 10px 20px 10px 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .nav-text {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    nav {
+        .nav-btn {
+            a {
+                i {
+                    display: none;
+                }
+            }
+        }
+        .nav-icons {
+            i {
+                display: none;
+            }
+        }
+    }
+}
